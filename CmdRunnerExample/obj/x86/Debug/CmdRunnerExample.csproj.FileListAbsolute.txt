@@ -1,0 +1,7 @@
+C:\shared\dev\CmdRunner\CmdRunnerExample\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\shared\dev\CmdRunner\CmdRunnerExample\bin\Debug\CmdRunnerExamples.exe
+C:\shared\dev\CmdRunner\CmdRunnerExample\bin\Debug\CmdRunnerExamples.pdb
+C:\shared\dev\CmdRunner\CmdRunnerExample\bin\Debug\CmdRunner.dll
+C:\shared\dev\CmdRunner\CmdRunnerExample\bin\Debug\CmdRunner.pdb
+C:\shared\dev\CmdRunner\CmdRunnerExample\obj\x86\Debug\CmdRunnerExamples.exe
+C:\shared\dev\CmdRunner\CmdRunnerExample\obj\x86\Debug\CmdRunnerExamples.pdb
