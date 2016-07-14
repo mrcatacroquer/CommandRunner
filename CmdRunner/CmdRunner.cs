@@ -49,9 +49,9 @@ namespace Codice.CmdRunner
             }
         }
 
-        public static Process Run(string cmd, string workingdir)
+        public static Process Run(string command, string workingdir)
         {
-            return runner.InternalRun(cmd, workingdir, true);
+            return runner.InternalRun(command, workingdir, true);
         }
 
         public static void ExecuteCommand(string command, string path)
@@ -75,7 +75,10 @@ namespace Codice.CmdRunner
             string output, error;
             return runner.InternalExecuteCommand(command, path, null, out output, out error, true);
         }
-
+        public static int RunAndWait(string cmd, string workingdir, out string output, out string error)
+        {
+            return runner.RunAndWait(cmd, workingdir, out output, out error);
+        }
         public static int ExecuteCommandWithResult(string command, string path, out string output, out string error, bool bUseCmShell)
         {
             return runner.InternalExecuteCommand(command, path, null, out output, out error, bUseCmShell);
@@ -107,9 +110,5 @@ namespace Codice.CmdRunner
 
         }
 
-        public static int RunAndWait(string cmd, string workingdir, out string output, out string error)
-        {
-            return runner.RunAndWait(cmd, workingdir, out output, out error);
-        }
     }
 }
